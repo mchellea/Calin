@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Calin</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/grids.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/3e7d5d0052.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+    <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="shortcut icon" type="image/png" href="image/c-icon.png">
+
+</head>
+
+
+<body>
+
+    <header>
+        <a class="company-name" href="index.html">Calin</a>
+
+        <nav class="nav-bar">
+
+            <div class="navbar-links-left">
+                <div class="dropdown">
+                    <a class="nav-link-item" href="index.html">Store</a>
+                    <div class="dropdown-content">
+                      <a href="cologne.html">Eau de Cologne</a>
+                      <a href="candle.html">Scented Candle</a>
+                      <a href="catalogue.html">Shop All</a>
+                    </div>
+                  </div>
+                <a class="nav-link-item" href="about.html">Our Story</a>
+                <a class="nav-link-item" href="contact.html">Contact</a>
+            </div>
+
+            <div class="navbar-links-right">
+                <a href="checkout.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                  </svg></a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="perfumeintro">
+        <h1 class="nowrap">Submit a request</h1>
+        <h2 class="padding">Our mission is to ensure the satisfactory of the family to our maison. Please do not hestitate to reach us if there are any issues or questions</h2>
+    </div>
+
+    <div class="requestform">
+        <p>Need Help?</p>
+        <p>
+           Contact us at:
+        </p>
+        <p>
+            <strong>Email</strong> : customerservice@calin.ca
+        </p>
+
+        <p>
+            <strong>Phone</strong> : +1 (778) 888 - 8888
+        </p>
+        <p>
+            Monday to Friday - 9.00 am to 6.00 pm (Excluding holidays)
+        </p>
+
+        <p>
+            We will respond in 1-2 working days. Thank you for your patience.
+        </p>
+    </div>
+
+    <div class="requestform">
+        <p>Or send us a message below:</p>
+        <div class="contactform">
+            <form method="POST" action="#" class="form-upload">
+                <label for="firstName">First Name</label>
+                <input id="firstName" type="text" required>
+                <label for="lastName">Last Name</label>
+                <input id="lastName" type="text" required>
+                <label for="emailAddress">Email</label>
+                <input id="emailAddress" type="email" required>
+                <label for="phoneNumber">Phone Number</label>
+                <input id="phoneNumber" type="tel" required>
+                <label for="message">Message</label>
+                <textarea name="message" required aria-label="Message"></textarea>
+            </form>
+        </div>
+<!-- 
+        <div class="quantity buttons_added">
+            <input type="button" value="-" class="minus" /><input
+              type="number"
+              step="1"
+              min="1"
+              max=""
+              name="quantity"
+              value="1"
+              class="input-text qty text"
+              inputmode="none"
+            /><input type="button" value="+" class="plus" />
+          </div> -->
+          
+        <a href="candledetails.html" class="buy-button">Submit</a>
+    </div>
+
+    <footer class="footer-grid">
+        
+        <div class="footer-list-mailing">
+            <h3>Join to be a part of our Maison</h3>
+            <p>Be the first to know info on sales, event, new arrivals and more scents.</p>
+            <div class="footer-input-grid">
+                <div>
+                    <input type="tel" placeholder="Email Address">
+                </div>
+                <div class="button-element">
+                    <a href="" class="checkout-button">Subscribe</a>
+                </div>  
+            </div>
+        </div>
+
+        <div class="footer-list-products">
+            <h3><a href="index.html">Calin</a></h3>
+            
+            <li><a href="cologne.html">Eau de Cologne</a></li>
+            <li><a href="candle.html">Scented Candle</a></li>
+            <li><a href="catalogue.html">Shop All</a></li>
+        </div>
+
+        <div class="footer-list-products">
+            <h3>Connect</h3>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Facebook</a></li>
+        </div>
+
+        <div class="footer-list-products">
+            <h3>About</h3>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </div>
+
+        
+    </footer>   
+</body>
+
+</html>
